@@ -1,0 +1,17 @@
+{
+  "name": "test-pkg-lockfile-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "detect": "node detect-support-matrix.mjs"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^8.0.1",
+    "semver": "^7.6.0"
+  }
+}
